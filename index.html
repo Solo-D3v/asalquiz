@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Uygulaması</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="quiz-container">
+        <div id="question">
+            <img id="question-image" src="" alt="Öğretmen Fotoğrafı">
+            <p id="question-text"></p>
+        </div>
+        <div id="options">
+            <button class="option-btn" onclick="checkAnswer(0)"></button>
+            <button class="option-btn" onclick="checkAnswer(1)"></button>
+            <button class="option-btn" onclick="checkAnswer(2)"></button>
+            <button class="option-btn" onclick="checkAnswer(3)"></button>
+        </div>
+    </div>
+    <div id="result" style="display: none;">
+        <p>Yanlış Bildin! Tekrar Başla.</p>
+        <button onclick="restartQuiz()">Tekrar Başla</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
