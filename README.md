@@ -2,5 +2,6 @@
 
 # -------------
 
-33 yasım var. riyal -# kod 
+33 yasım var. riyal
+-# kod 
 yaziram
